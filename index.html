@@ -1,0 +1,911 @@
+<!DOCTYPE html>
+<html lang="en-US" dir="ltr">
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+        <!-- ===============================================-->
+        <!--    Document Title-->
+        <!-- ===============================================-->
+        <title>Piano Futuro</title>
+
+        <!-- ===============================================-->
+        <!--    Favicons-->
+        <!-- ===============================================-->
+        <link
+            rel="apple-touch-icon"
+            sizes="180x180"
+            href="assets/img/favicons/apple-touch-icon.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="assets/img/favicons/favicon-32x32.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="16x16"
+            href="assets/img/favicons/favicon-16x16.png"
+        />
+        <link
+            rel="shortcut icon"
+            type="image/x-icon"
+            href="assets/img/favicons/favicon.ico"
+        />
+        <link rel="manifest" href="assets/img/favicons/manifest.json" />
+        <meta
+            name="msapplication-TileImage"
+            content="assets/img/favicons/mstile-150x150.png"
+        />
+        <meta name="theme-color" content="#ffffff" />
+
+        <!-- ===============================================-->
+        <!--    Stylesheets-->
+        <!-- ===============================================-->
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700&amp;display=swap"
+            rel="stylesheet"
+        />
+        <link href="vendors/prism/prism.css" rel="stylesheet" />
+        <link href="vendors/swiper/swiper-bundle.min.css" rel="stylesheet" />
+        <link href="assets/css/theme.css" rel="stylesheet" />
+    </head>
+
+    <body>
+        <!-- ===============================================-->
+        <!--    Main Content-->
+        <!-- ===============================================-->
+        <main class="main" id="top">
+            <nav
+                class="navbar navbar-expand-lg fixed-top navbar-dark"
+                data-navbar-on-scroll="data-navbar-on-scroll"
+            >
+                <div class="container">
+                    <a class="navbar-brand" href="index.html"
+                        ><h2 style="color: #fff; font-weight: bold">
+                            Piano Futuro
+                        </h2></a
+                    >
+                    <button
+                        class="navbar-toggler"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent"
+                        aria-controls="navbarSupportedContent"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation"
+                    >
+                        <i class="fa-solid fa-bars text-white fs-3"></i>
+                    </button>
+                    <div
+                        class="collapse navbar-collapse"
+                        id="navbarSupportedContent"
+                    >
+                        <ul class="navbar-nav ms-auto mt-2 mt-lg-0">
+                            <li class="nav-item">
+                                <a
+                                    class="nav-link"
+                                    aria-current="page"
+                                    href="index.html"
+                                    >Inizio</a
+                                >
+                            </li>
+                            <li class="nav-item">
+                                <a
+                                    class="nav-link"
+                                    aria-current="page"
+                                    href="index.html#about"
+                                    >Chi Siamo</a
+                                >
+                            </li>
+                            <li class="nav-item">
+                                <a
+                                    class="nav-link"
+                                    aria-current="page"
+                                    href="index.html#blogs"
+                                    >Articoli</a
+                                >
+                            </li>
+                            <li class="nav-item">
+                                <a
+                                    class="nav-link"
+                                    aria-current="page"
+                                    href="index.html#clients"
+                                    >Testimonianze</a
+                                >
+                            </li>
+                            <li class="nav-item mt-2 mt-lg-0">
+                                <a
+                                    class="nav-link btn btn-light text-black w-md-25 w-50 w-lg-100"
+                                    aria-current="page"
+                                    href="index.html#contact"
+                                    >Contatti</a
+                                >
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <div class="bg-dark">
+                <img
+                    class="img-fluid position-absolute end-0"
+                    src="assets/img/hero/hero-bg.png"
+                    alt=""
+                />
+
+                <!-- ============================================-->
+                <!-- <section> begin ============================-->
+                <section>
+                    <div class="container">
+                        <div class="row align-items-center py-lg-8 py-6">
+                            <div class="col-lg-6 text-center text-lg-start">
+                                <h1 class="text-white fs-5 fs-xl-6">
+                                    Ottimizza la tua vita quotidiana con l'AI
+                                </h1>
+                                <p class="text-white py-lg-3 py-2">
+                                    Scopri come l'Intelligenza Artificiale può
+                                    semplificare la gestione del tempo, le
+                                    finanze e l'organizzazione delle tue
+                                    attività quotidiane.
+                                </p>
+                            </div>
+                            <div
+                                class="col-lg-6 text-center text-lg-end mt-3 mt-lg-0"
+                            >
+                                <img
+                                    class="img-fluid"
+                                    src="assets/img/hero/hero-graphics.png"
+                                    alt=""
+                                />
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end of .container-->
+                </section>
+                <!-- <section> close ============================-->
+                <!-- ============================================-->
+            </div>
+
+            <!-- ============================================-->
+            <!-- <section> begin ============================-->
+            <section>
+                <div class="container">
+                    <p class="text-center fs-1">I Nostri Servizi</p>
+                    <h2 class="mx-auto text-center fs-lg-6 fs-md-5 w-lg-75">
+                        Come l'AI può migliorare la tua vita quotidiana.
+                    </h2>
+                    <div class="row gx-xl-7 mt-5">
+                        <div
+                            class="col-md-4 mb-6 mb-md-0 text-center text-md-start"
+                        >
+                            <img
+                                class="w-50 w-md-100"
+                                src="assets/img/services/1.png"
+                                alt=""
+                            />
+                            <h4 class="mt-3 my-1">
+                                Assistenza Personale con AI
+                            </h4>
+                            <p class="fs-1 mb-0">
+                                Utilizza l'AI per pianificare le tue giornate e
+                                organizzare le tue attività in modo più
+                                efficiente.
+                            </p>
+                        </div>
+                        <div
+                            class="col-md-4 mb-6 mb-md-0 text-center text-md-start"
+                        >
+                            <img
+                                class="w-50 w-md-100"
+                                src="assets/img/services/2.png"
+                                alt=""
+                            />
+                            <h4 class="mt-3 my-1">
+                                Gestione Finanziaria con AI
+                            </h4>
+                            <p class="fs-1 mb-0">
+                                Ottimizza la gestione delle tue finanze
+                                personali con l'assistenza dell'Intelligenza
+                                Artificiale.
+                            </p>
+                        </div>
+                        <div
+                            class="col-md-4 mb-6 mb-md-0 text-center text-md-start"
+                        >
+                            <img
+                                class="w-50 w-md-100"
+                                src="assets/img/services/3.png"
+                                alt=""
+                            />
+                            <h4 class="mt-3 my-1">
+                                Pianificazione Intelligente
+                            </h4>
+                            <p class="fs-1 mb-0">
+                                Semplifica la pianificazione e l'organizzazione
+                                delle tue attività quotidiane con l'AI.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- end of .container-->
+            </section>
+            <!-- <section> close ============================-->
+            <!-- ============================================-->
+
+            <!-- ============================================-->
+            <!-- <section> begin ============================-->
+            <section id="about">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-lg-6 text-center text-lg-start">
+                            <img
+                                class="img-fluid"
+                                src="assets/img/offer/1.png"
+                                alt=""
+                            />
+                        </div>
+                        <div class="col-lg-6">
+                            <h1 class="fs-xl-5 fs-lg-4 fs-3">
+                                Ottimizza la tua vita quotidiana con
+                                l'Intelligenza Artificiale
+                            </h1>
+                            <ul class="list-unstyled my-xl-5 my-3">
+                                <li
+                                    class="fs-2 my-4 d-flex align-items-center gap-3 text-black"
+                                >
+                                    <i
+                                        class="fa-solid fa-circle-check fs-4 text-dark"
+                                    ></i
+                                    ><span
+                                        >Utilizza l'AI per semplificare le tue
+                                        attività quotidiane e organizzare la tua
+                                        vita.</span
+                                    >
+                                </li>
+                                <li
+                                    class="fs-2 my-4 d-flex align-items-center gap-3 text-black"
+                                >
+                                    <i
+                                        class="fa-solid fa-circle-check fs-4 text-dark"
+                                    ></i
+                                    ><span
+                                        >Gestisci le tue finanze personali in
+                                        modo più intelligente con l'AI.</span
+                                    >
+                                </li>
+                                <li
+                                    class="fs-2 my-4 d-flex align-items-center gap-3 text-black"
+                                >
+                                    <i
+                                        class="fa-solid fa-circle-check fs-4 text-dark"
+                                    ></i
+                                    ><span
+                                        >Pianifica la tua giornata e ottimizza
+                                        il tuo tempo con l'assistenza
+                                        dell'AI.</span
+                                    >
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- end of .container-->
+            </section>
+            <!-- <section> close ============================-->
+            <!-- ============================================-->
+
+            <!-- ============================================-->
+            <!-- <section> begin ============================-->
+            <section class="pt-8 pt-lg-0">
+                <div class="container">
+                    <div class="d-flex flex-column-reverse flex-lg-row">
+                        <div class="col-lg-6">
+                            <h1 class="fs-lg-4 fs-md-3 fs-xl-5 mb-5">
+                                Semplifica la tua vita quotidiana con
+                                l'assistenza dell'AI
+                            </h1>
+                            <ul class="list-unstyled">
+                                <li class="fs-2 shadow-sm offer-list-item">
+                                    <i class="fa-solid fa-leaf fs-lg-4 fs-3"></i
+                                    ><span
+                                        >Gestisci il tuo tempo e le tue attività
+                                        in modo intelligente con l'AI.</span
+                                    >
+                                </li>
+                                <li class="fs-2 shadow-sm offer-list-item">
+                                    <i class="fa-solid fa-eye fs-lg-4 fs-3"></i
+                                    ><span
+                                        >Organizza la tua vita quotidiana con
+                                        l'assistenza dell'AI per una
+                                        pianificazione efficace.</span
+                                    >
+                                </li>
+                                <li class="fs-2 shadow-sm offer-list-item">
+                                    <i class="fa-solid fa-sun fs-lg-4 fs-3"></i
+                                    ><span
+                                        >Ottimizza le tue finanze personali con
+                                        soluzioni di AI per decisioni più
+                                        intelligenti.</span
+                                    >
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-6 text-center text-lg-end">
+                            <img
+                                class="img-fluid"
+                                src="assets/img/offer/2.png"
+                                alt=""
+                            />
+                        </div>
+                    </div>
+                </div>
+                <!-- end of .container-->
+            </section>
+            <!-- <section> close ============================-->
+            <!-- ============================================-->
+
+            <!-- ============================================-->
+            <!-- <section> begin ============================-->
+            <section class="bg-dark pt-6" id="clients">
+                <div class="container">
+                    <div class="col-md-6">
+                        <h1 class="text-white fs-lg-5 fs-md-3 fs-2">
+                            Una soluzione intelligente per ottimizzare la tua
+                            vita quotidiana con l'AI
+                        </h1>
+                    </div>
+                    <div class="swiper mt-7">
+                        <div
+                            class="swiper-container swiper-theme"
+                            data-swiper='{"slidesPerView":1,"breakpoints":{"640":{"slidesPerView":1,"spaceBetween":10},"768":{"slidesPerView":2,"spaceBetween":20},"1025":{"slidesPerView":3,"spaceBetween":40}},"spaceBetween":10,"grabCursor":true,"pagination":{"el":".swiper-pagination","clickable":true},"navigation":{"nextEl":".swiper-button-next","prevEl":".swiper-button-prev"},"loop":true,"freeMode":true,"loopedSlides":3}'
+                        >
+                            <div class="swiper-wrapper">
+                                <div
+                                    class="swiper-slide bg-white p-5 rounded-3 h-auto"
+                                >
+                                    <div
+                                        class="d-flex flex-column justify-content-between h-100"
+                                    >
+                                        <h4 class="text-black">
+                                            “Ottimizzazione della vita
+                                            quotidiana con l'AI per migliorare
+                                            produttività e pianificazione.”
+                                        </h4>
+                                        <div
+                                            class="d-flex align-items-center gap-3 mt-5"
+                                        >
+                                            <img
+                                                src="assets/img/review/1.png"
+                                                alt=""
+                                            />
+                                            <div class="text-black">
+                                                <p
+                                                    class="mb-0 fw-bold text-dark"
+                                                >
+                                                    Luca Bianchi
+                                                </p>
+                                                <small
+                                                    >Responsabile @ Innovazione
+                                                    AI</small
+                                                >
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div
+                                    class="swiper-slide bg-white p-5 rounded-3 h-auto"
+                                >
+                                    <div
+                                        class="d-flex flex-column justify-content-between h-100"
+                                    >
+                                        <h4 class="text-black">
+                                            “Gestione intelligente delle finanze
+                                            personali con l'intelligenza
+                                            artificiale.”
+                                        </h4>
+                                        <div
+                                            class="d-flex align-items-center gap-3 mt-5"
+                                        >
+                                            <img
+                                                src="assets/img/review/2.png"
+                                                alt=""
+                                            />
+                                            <div class="text-black">
+                                                <p
+                                                    class="mb-0 fw-bold text-dark"
+                                                >
+                                                    Marco Rossi
+                                                </p>
+                                                <small
+                                                    >Analista @ AI
+                                                    FinTech</small
+                                                >
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div
+                                    class="swiper-slide bg-white p-5 rounded-3 h-auto"
+                                >
+                                    <div
+                                        class="d-flex flex-column justify-content-between h-100"
+                                    >
+                                        <h4 class="text-black">
+                                            “AI come assistente personale per
+                                            pianificare le tue giornate e
+                                            ottimizzare i tuoi obiettivi.”
+                                        </h4>
+                                        <div
+                                            class="d-flex align-items-center gap-3 mt-5"
+                                        >
+                                            <img
+                                                src="assets/img/review/3.png"
+                                                alt=""
+                                            />
+                                            <div class="text-black">
+                                                <p
+                                                    class="mb-0 fw-bold text-dark"
+                                                >
+                                                    Francesco De Luca
+                                                </p>
+                                                <small
+                                                    >Manager @ Tecnologia
+                                                    AI</small
+                                                >
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-button-next">
+                            <span
+                                class="fas fa-arrow-right fs-lg-3 fs-2"
+                            ></span>
+                        </div>
+                        <div class="swiper-button-prev">
+                            <span class="fas fa-arrow-left fs-lg-3 fs-2"></span>
+                        </div>
+                    </div>
+                </div>
+                <!-- end of .container-->
+            </section>
+            <!-- <section> close ============================-->
+            <!-- ============================================-->
+
+            <!-- ============================================-->
+            <!-- <section> begin ============================-->
+            <section>
+                <div class="container">
+                    <img
+                        class="img-fluid"
+                        src="assets/img/offer/3.png"
+                        alt=""
+                    />
+                    <div class="row mt-5 align-items-center">
+                        <div class="col-md-6">
+                            <h2 class="fs-md-4 fs-3 pt-3">
+                                Utilizza l'AI per migliorare la tua vita
+                                quotidiana e ottimizzare la gestione del tempo e
+                                delle finanze.
+                            </h2>
+                        </div>
+                        <div class="col-md-6">
+                            <div
+                                class="accordion accordion-flush"
+                                id="accordionFlushExample"
+                            >
+                                <div class="accordion-item"></div>
+                                <h2
+                                    class="accordion-header border-bottom"
+                                    id="srgdgfdgdgg45"
+                                >
+                                    <button
+                                        class="accordion-button collapsed text-black"
+                                        type="button"
+                                        data-bs-toggle="collapse"
+                                        data-bs-target="#srgdgfdgdgg45tyuu"
+                                        aria-expanded="false"
+                                        aria-controls="srgdgfdgdgg45"
+                                    >
+                                        <span class="fs-1 pe-3"
+                                            >Come può l'AI migliorare la mia
+                                            gestione finanziaria?</span
+                                        >
+                                    </button>
+                                </h2>
+                                <div
+                                    class="accordion-collapse collapse"
+                                    aria-labelledby="srgdgfdgdgg45"
+                                    data-bs-parent="#accordionFlushExample"
+                                    id="srgdgfdgdgg45tyuu"
+                                >
+                                    <div class="accordion-body">
+                                        <p class="mb-0">
+                                            Utilizzando l'intelligenza
+                                            artificiale, puoi analizzare le tue
+                                            abitudini di spesa, creare un budget
+                                            personalizzato e ricevere consigli
+                                            per risparmiare e investire in modo
+                                            più efficiente.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="accordion-item"></div>
+                                <h2
+                                    class="accordion-header border-bottom"
+                                    id="sxvdgrfhfh276"
+                                >
+                                    <button
+                                        class="accordion-button collapsed text-black"
+                                        type="button"
+                                        data-bs-toggle="collapse"
+                                        data-bs-target="#srgdgfdgdgg45tyuu5ghj"
+                                        aria-expanded="false"
+                                        aria-controls="sxvdgrfhfh276"
+                                    >
+                                        <span class="fs-1 pe-3"
+                                            >Come posso usare l'AI come
+                                            assistente personale per la
+                                            pianificazione giornaliera?</span
+                                        >
+                                    </button>
+                                </h2>
+                                <div
+                                    class="accordion-collapse collapse"
+                                    aria-labelledby="sxvdgrfhfh276"
+                                    data-bs-parent="#accordionFlushExample"
+                                    id="srgdgfdgdgg45tyuu5ghj"
+                                >
+                                    <div class="accordion-body">
+                                        <p class="mb-0">
+                                            L'AI può aiutarti a organizzare la
+                                            tua giornata, suggerendo orari
+                                            ottimali per completare le attività,
+                                            ricordandoti gli impegni e
+                                            ottimizzando la tua produttività.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- end of .container-->
+            </section>
+            <!-- <section> close ============================-->
+            <!-- ============================================-->
+
+            <!-- ============================================-->
+            <!-- <section> begin ============================-->
+            <section class="pb-0" id="blogs">
+                <div class="container">
+                    <p class="text-center text-gray fs-1">Il Nostro Blog</p>
+                    <h2 class="mx-auto text-center fs-lg-6 fs-md-5 w-lg-75">
+                        Come utilizzare l'IA nella vita quotidiana: assistente
+                        personale, pianificazione, finanza
+                    </h2>
+                    <div class="row mt-7 gx-xl-7">
+                        <div
+                            class="col-md-4 text-center text-md-start h-auto mb-5"
+                        >
+                            <div
+                                class="d-flex justify-content-between flex-column h-100"
+                            >
+                                <a href="#"
+                                    ><img
+                                        class="w-75 w-md-100 rounded-2"
+                                        src="assets/img/blog/1.png"
+                                        alt=""
+                                /></a>
+                                <div
+                                    class="d-flex align-items-center justify-content-center justify-content-md-start gap-2 mt-3"
+                                >
+                                    <a href="#"
+                                        ><p class="fw-bold mb-0 text-black">
+                                            Pianificazione Finanziaria
+                                        </p></a
+                                    >
+                                    <p class="mb-0">22 novembre 2024</p>
+                                </div>
+                                <a href="#">
+                                    <h5 class="mt-1 mb-3 fs-0 fs-md-1">
+                                        Come usare l'IA per ottimizzare la
+                                        pianificazione finanziaria.
+                                    </h5>
+                                </a>
+                                <div
+                                    class="d-flex align-items-center justify-content-center justify-content-md-start gap-3"
+                                >
+                                    <img
+                                        class="img-fluid"
+                                        src="assets/img/blog/profile1.png"
+                                        alt=""
+                                    /><a href="#">
+                                        <p class="mb-0 text-gray">
+                                            Matteo Rossi
+                                        </p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div
+                            class="col-md-4 text-center text-md-start h-auto mb-5"
+                        >
+                            <div
+                                class="d-flex justify-content-between flex-column h-100"
+                            >
+                                <a href="#"
+                                    ><img
+                                        class="w-75 w-md-100 rounded-2"
+                                        src="assets/img/blog/2.png"
+                                        alt=""
+                                /></a>
+                                <div
+                                    class="d-flex align-items-center justify-content-center justify-content-md-start gap-2 mt-3"
+                                >
+                                    <a href="#"
+                                        ><p class="fw-bold mb-0 text-black">
+                                            Pianificazione Finanziaria
+                                        </p></a
+                                    >
+                                    <p class="mb-0">22 novembre 2024</p>
+                                </div>
+                                <a href="#">
+                                    <h5 class="mt-1 mb-3 fs-0 fs-md-1">
+                                        Generare reddito passivo con l'IA.
+                                    </h5>
+                                </a>
+                                <div
+                                    class="d-flex align-items-center justify-content-center justify-content-md-start gap-3"
+                                >
+                                    <img
+                                        class="img-fluid"
+                                        src="assets/img/blog/profile2.png"
+                                        alt=""
+                                    /><a href="#">
+                                        <p class="mb-0 text-gray">
+                                            Giulia Bianchi
+                                        </p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div
+                            class="col-md-4 text-center text-md-start h-auto mb-5"
+                        >
+                            <div
+                                class="d-flex justify-content-between flex-column h-100"
+                            >
+                                <a href="#"
+                                    ><img
+                                        class="w-75 w-md-100 rounded-2"
+                                        src="assets/img/blog/3.png"
+                                        alt=""
+                                /></a>
+                                <div
+                                    class="d-flex align-items-center justify-content-center justify-content-md-start gap-2 mt-3"
+                                >
+                                    <a href="#"
+                                        ><p class="fw-bold mb-0 text-black">
+                                            Pianificazione Finanziaria
+                                        </p></a
+                                    >
+                                    <p class="mb-0">22 novembre 2024</p>
+                                </div>
+                                <a href="#">
+                                    <h5 class="mt-1 mb-3 fs-0 fs-md-1">
+                                        Innovazioni nelle soluzioni finanziarie
+                                        con l'IA.
+                                    </h5>
+                                </a>
+                                <div
+                                    class="d-flex align-items-center justify-content-center justify-content-md-start gap-3"
+                                >
+                                    <img
+                                        class="img-fluid"
+                                        src="assets/img/blog/profile3.png"
+                                        alt=""
+                                    /><a href="#">
+                                        <p class="mb-0 text-gray">
+                                            Alessandro Verdi
+                                        </p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- end of .container-->
+            </section>
+            <!-- <section> close ============================-->
+            <!-- ============================================-->
+        </main>
+        <!-- ===============================================-->
+        <!--    End of Main Content-->
+        <!-- ===============================================-->
+
+        <!-- ============================================-->
+        <!-- <section> begin ============================-->
+        <section id="contact">
+            <div class="container bg-dark overflow-hidden rounded-1">
+                <div
+                    class="bg-holder"
+                    style="background-image: url(assets/img/promo/promo-bg.png)"
+                ></div>
+                <!--/.bg-holder-->
+
+                <div class="px-5 py-7 position-relative">
+                    <h1
+                        class="text-center w-lg-75 mx-auto fs-lg-6 fs-md-4 fs-3 text-white"
+                    >
+                        Plantilla empresarial para potenciar tu inversión con IA
+                    </h1>
+
+                    <iframe
+                        style="border-radius: 30px"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d185.52317648610017!2d12.514690356691066!3d41.92788243274414!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132f614399dea147%3A0xb3f916d65fcf7292!2sStrategy%20and%20tactics%202!5e0!3m2!1suk!2sua!4v1743631481406!5m2!1suk!2sua"
+                        width="100%"
+                        height="450"
+                        style="border: 0"
+                        allowfullscreen=""
+                        loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"
+                    ></iframe>
+                    <form action="thanks.html" method="get" class="mt-3">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <input
+                                    class="form-control mb-2 border-light fs-1"
+                                    type="text"
+                                    placeholder="Nombre"
+                                    required
+                                />
+                            </div>
+                            <div class="col-md-6">
+                                <input
+                                    class="form-control mb-2 border-light fs-1"
+                                    type="text"
+                                    placeholder="Apellido"
+                                    required
+                                />
+                            </div>
+                            <div class="col-md-6">
+                                <input
+                                    class="form-control mb-2 border-light fs-1"
+                                    type="email"
+                                    placeholder="Tu correo electrónico"
+                                    required
+                                />
+                            </div>
+                            <div class="col-md-6">
+                                <input
+                                    class="form-control mb-2 border-light fs-1"
+                                    type="number"
+                                    placeholder="Tu teléfono"
+                                />
+                            </div>
+                            <div
+                                class="col-md-12"
+                                style="display: flex; justify-content: center"
+                            >
+                                <button
+                                    type="submit"
+                                    class="btn btn-success text-dark fs-1"
+                                >
+                                    Comienza ahora
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <!-- end of .container-->
+        </section>
+        <!-- <section> close ============================-->
+        <!-- ============================================-->
+
+        <!-- ============================================-->
+        <!-- <section> begin ============================-->
+        <section class="pt-0" style="border-top: 1px solid lightgray">
+            <div class="container">
+                <div class="row justify-content-between">
+                    <div class="col-lg-4 col-sm-4">
+                        <a href="index.html"
+                            ><h2 class="mt-5" style="font-weight: bold">
+                                Piano Futuro
+                            </h2></a
+                        >
+                        <p class="w-lg-75 text-gray">
+                            Potencia tu inversión con IA y genera ingresos
+                            pasivos.
+                        </p>
+                    </div>
+                    <div class="col-lg-4 col-sm-4">
+                        <h3 class="fw-bold fs-1 mt-5 mb-4">Enlaces</h3>
+                        <ul class="list-unstyled">
+                            <li class="my-3 col-md-4">
+                                <a href="index.html">Inicio</a>
+                            </li>
+                            <li class="my-3">
+                                <a href="index.html#about">Acerca de</a>
+                            </li>
+                            <li class="my-3">
+                                <a href="index.html#blogs">Servicios</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-4 col-sm-4">
+                        <h3 class="fw-bold fs-1 mt-5 mb-4">Enlaces</h3>
+                        <ul class="list-unstyled">
+                            <li class="my-3 col-md-4">
+                                <a href="index.html#contact">Contacto</a>
+                            </li>
+                            <li class="my-3">
+                                <a href="privacy-policy.html"
+                                    >Política de Privacidad</a
+                                >
+                            </li>
+                            <li class="my-3">
+                                <a href="cookie-policy.html"
+                                    >Política de Cookies</a
+                                >
+                            </li>
+                            <li class="my-3">
+                                <a href="terms-of-use.html">Términos de uso</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <p class="text-gray">piano_futuro@gmail.com.</p>
+                <p class="text-gray">
+                    Via Massaciuccoli, 99/a, 00199 Roma RM, Італія
+                </p>
+                <p class="text-gray">+390686398756</p>
+            </div>
+            <!-- end of .container-->
+        </section>
+        <!-- <section> close ============================-->
+        <!-- ============================================-->
+
+        <!-- Cookie banner -->
+        <div class="cookie-wrapper show">
+            <div>
+                <i class="bx bx-cookie"></i>
+                <h2 style="text-align: center">Consentimiento de Cookies</h2>
+            </div>
+
+            <div class="data">
+                <p>
+                    Este sitio web utiliza cookies para proporcionarte una mejor
+                    y más relevante experiencia de navegación.
+                    <a href="cookie-policy.html">Aprende más...</a>
+                </p>
+            </div>
+
+            <div class="buttons">
+                <button class="cookie-button" id="acceptBtn">Aceptar</button>
+                <button class="cookie-button" id="declineBtn">Rechazar</button>
+            </div>
+        </div>
+        <!-- End Cookie banner -->
+
+        <!-- ===============================================-->
+        <!--    JavaScripts-->
+        <!-- ===============================================-->
+        <script src="vendors/popper/popper.min.js"></script>
+        <script src="vendors/bootstrap/bootstrap.min.js"></script>
+        <script src="vendors/anchorjs/anchor.min.js"></script>
+        <script src="vendors/is/is.min.js"></script>
+        <script src="vendors/fontawesome/all.min.js"></script>
+        <script src="vendors/lodash/lodash.min.js"></script>
+        <script src="vendors/prism/prism.js"></script>
+        <script src="vendors/swiper/swiper-bundle.min.js"></script>
+        <script src="assets/js/theme.js"></script>
+        <script src="assets/js/cookiebanner.js"></script>
+    </body>
+</html>
